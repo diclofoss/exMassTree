@@ -1,0 +1,6 @@
+/* Legacy overrides — kept for backward compatibility with extraCss config */
+
+.custom-main {
+    flex: 1 !important;
+    max-width: none !important;
+}

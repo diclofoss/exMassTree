@@ -1,0 +1,25 @@
+# Dependencies
+/vendor/
+
+# Local / secrets
+/config/config.php
+/config/*.local.php
+
+# Runtime
+/upload/**
+!/upload/.htaccess
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+nbproject/
+
+# Temp / smoke
+_*.php
+_*.html
+_cookie.txt
+*.tmp

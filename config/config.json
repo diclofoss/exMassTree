@@ -1,0 +1,25 @@
+{
+    "auth": {
+        "type": "mysqlaccess",
+        "otp": false
+    },
+    "defaultHome": "?personal",
+    "database": {
+        "driver": "mysql",
+        "prefix": "t_",
+        "idName": "n_id",
+        "parentIdName": "item_id",
+        "charset": "utf8",
+        "host": "localhost",
+        "user": "xmasstree",
+        "password": "xmasstree",
+        "dbname": "xmasstree"
+    },
+    "categories": [],
+    "project": "ExMassTree",
+    "adminMenu": {
+        "title": "Админ",
+        "icon": "settings"
+    },
+    "projectPhase": "dev"
+}
